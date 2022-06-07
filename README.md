@@ -1,2 +1,2 @@
 # unbeatable-tic-tac-toe
-I created an unbeatable CPU TicTacToe that simulates games based on the current board in order to make its move in the space with the highest expected win probability
+I created a CPU Tic Tac Toe player that takes a defensive approach in order to never lose a game even when allowing the user to go first. Before every move, the CPU will test every available space and calculate its corresponding expected win percentage through simulating 10000 random trials after having played in the space. The CPU's defensive approach comes from weighting a loss much heavier in the negative direction than a win or draw is in the positive direction. 
